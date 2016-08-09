@@ -10,7 +10,7 @@ var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
 
   // and also log the variables we are going to use in our response
-  var version = "2.0";
+  var version = "1.0";
   var log = {};
   log.header = 'webapp';
   log.name = os.hostname();
